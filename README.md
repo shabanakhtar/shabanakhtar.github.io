@@ -1,16 +1,24 @@
-## Hi there 👋
+# Hi, I'm Shaban 👋
 
-<!--
-**shabanakhtar/shabanakhtar** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+🎓 Fintech undergraduate at FAST  
+💻 Interested in Data Science, AI, and Python  
+📊 Currently building projects in data analysis and machine learning  
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Skills
+- Python  
+- Data Analysis (learning)  
+- Financial Analysis  
+- Problem Solving  
+
+---
+
+## Current Focus
+- Building real-world Python projects  
+- Learning data analysis and machine learning  
+
+---
+
+## Connect with me
+- LinkedIn: https://www.linkedin.com/in/shabanakhtar28A
