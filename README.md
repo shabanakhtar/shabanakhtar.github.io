@@ -1,46 +1,55 @@
-# Hi, I'm Shaban Akhtar 👋
+# Hello, I'm Shaban Akhtar 
 
-🎓 FinTech Undergraduate at FAST University
-💻 Software Developer | AI & Data Science Enthusiast
-🚀 Building real-world products and learning by shipping projects
+I'm a FinTech student at FAST NUCES who likes building things at the intersection of finance, software, AI, and data.
 
 ---
 
-## About Me
+## What I'm Working On
 
-I'm a FinTech student passionate about technology, data, and problem-solving. I enjoy building practical software solutions that combine programming, analytics, and user-focused design.
+Right now, I'm focused on becoming better as a full-stack developer and building projects that are actually useful.
 
-Currently, I'm focused on developing full-stack applications, exploring machine learning, and strengthening my software engineering skills through real-world projects.
+I'm working on:
+
+* Full-stack applications
+* AI-powered tools
+* Finance and data-driven projects
+* Student-focused platforms
+* Machine learning fundamentals
+
 
 ---
 
-## Technical Skills
+## Skills
 
-### Programming
+**Languages**
 
 * Python
 * SQL
-* JavaScript (Learning)
+* JavaScript
+* Html
 
-### Development
+**Development**
 
 * FastAPI
 * REST APIs
+* React Native / Expo
 * Git & GitHub
-* React Native (Learning)
+* Supabase
 
-### Data & Analytics
+**Data & AI**
 
 * Data Analysis
 * Financial Analysis
 * Data Visualization
 * Machine Learning Fundamentals
+* AI API Integration
 
-### Other
+**Other**
 
 * Problem Solving
+* Teaching
+* Product Thinking
 * Technical Communication
-* Teaching & Mentorship
 
 ---
 
@@ -48,39 +57,26 @@ Currently, I'm focused on developing full-stack applications, exploring machine 
 
 ### FAST Fellows
 
-Peer-to-peer education platform connecting students with experienced tutors and mentors.
+A student-led peer-to-peer learning platform built for FAST students.
 
-**Contributions:**
-
-* Frontend and backend development
-* Product design and user experience improvements
-* Platform growth and branding initiatives
+I worked on frontend and backend development, product design, user experience improvements, and early branding/marketing work.
 
 ### AI Personal Finance Tracker
 
-A finance management application that helps users track expenses, budgets, and spending habits.
+A full-stack finance app built to help users track money, budgets, and spending habits more intelligently.
 
-**Features:**
+It includes user accounts, transaction tracking, budget management, dashboard analytics, CSV import/export, receipt scanning, market checks, and AI-based finance insights.
 
-* Expense and income tracking
-* Budget management
-* Analytics and insights
-* AI-powered financial recommendations
-* FastAPI backend architecture
+### GradeCalc
 
----
+An ML-based grade prediction tool trained on data from 300+ students.
 
-## Current Focus
-
-* Building production-ready software projects
-* Learning Data Science and Machine Learning
-* Improving full-stack development skills
-* Exploring AI-powered applications
+The goal is to help students better understand where they stand academically and what they need to aim for.
 
 ---
 
-## Let's Connect
+## Connect
 
-💼 LinkedIn: [www.linkedin.com/in/shabanakhtar28A](http://www.linkedin.com/in/shabanakhtar28A)
+LinkedIn: [www.linkedin.com/in/shabanakhtar28A](http://www.linkedin.com/in/shabanakhtar28A)
 
-Always open to discussing technology, startups, software development, and data science.
+Always open to talking about software, AI, finance, student projects, startups, or anything worth learning.
