@@ -25,8 +25,7 @@ I'm working on:
 
 * Python
 * SQL
-* JavaScript
-* Html
+
 
 **Development**
 
@@ -34,7 +33,6 @@ I'm working on:
 * REST APIs
 * React Native / Expo
 * Git & GitHub
-* Supabase
 
 **Data & AI**
 
