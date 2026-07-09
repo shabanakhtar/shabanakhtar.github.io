@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="AI Is Real. The Math Around It Might Not Be. An essay by Shaban Akhtar on AI infrastructure spending, circular financing, and the revenue gap."
+    >
+    <title>AI Is Real. The Math Around It Might Not Be. | Shaban Akhtar</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="ambient ambient-one" aria-hidden="true"></div>
+    <div class="ambient ambient-two" aria-hidden="true"></div>
+    <div class="spark-field" aria-hidden="true">
+      <span class="spark s1"></span>
+      <span class="spark s2"></span>
+      <span class="spark s3"></span>
+      <span class="spark s4"></span>
+      <span class="spark s5"></span>
+      <span class="spark s6"></span>
+      <span class="spark s7"></span>
+      <span class="spark s8"></span>
+    </div>
+
+    <header class="site-header">
+      <a class="wordmark" href="index.html" aria-label="Back to Shaban Akhtar home">SA</a>
+      <nav class="nav-links" aria-label="Article navigation">
+        <a href="index.html#projects">Projects</a>
+        <a href="index.html#writing">Writing</a>
+        <a href="index.html#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main class="article-shell">
+      <article class="article-page">
+        <header class="article-hero">
+          <p class="status-line">WRITING-01</p>
+          <h1>AI Is Real. The Math Around It Might Not Be.</h1>
+          <p class="article-byline">By Shaban Akhtar</p>
+        </header>
+
+        <div class="article-body">
+          <p>
+            Nobody serious argues that artificial intelligence works. The argument is whether anyone is
+            going to get paid for it. That distinction sounds small. It is currently worth about a
+            trillion dollars a year in infrastructure spending, and in June 2026 it started showing up
+            in places that have nothing to do with AI at all, like the price of a laptop.
+          </p>
+
+          <p>
+            On June 5, Nvidia lost roughly 320 billion dollars of market value in a single trading day,
+            falling back below the 5 trillion dollar mark it had only just crossed. Three weeks later,
+            Apple raised prices on MacBooks and iPads by as much as 20 percent, in the middle of a
+            product year, something it had never done before in its history, and said plainly it could
+            no longer absorb the rising cost of the chips going into its own hardware. Two of the most
+            dominant companies on earth sent the same signal in the same month. I build software for a
+            living, or I will soon, and every project I have shipped this year quietly assumed the ground
+            underneath it would stay cheap: cheap compute, cheap memory, cheap AI. That assumption is
+            exactly what these two headlines are calling into question.
+          </p>
+
+          <h2>What the spending looks like from the inside</h2>
+
+          <p>
+            In 2020, before ChatGPT existed, Amazon, Meta, Google, and Microsoft together spent about 90
+            billion dollars on capital expenditure. This year, combined spending across those four
+            companies is projected near 725 billion dollars. That is not steady growth. That is an
+            eightfold jump in six years, and almost all of it is infrastructure built for one bet: that
+            the world will need vastly more AI compute than currently exists.
+          </p>
+
+          <figure class="article-figure">
+            <img
+              src="assets/ai-capex-growth.png"
+              alt="Bar chart showing Big Tech AI capital expenditure rising from $90B in 2020 to projected $725B in 2026."
+            >
+          </figure>
+
+          <p>
+            Picture what that money buys: a windowless industrial building holding tens of thousands of
+            Nvidia GPUs, each chip priced at 30 to 40 thousand dollars. A large facility can hold
+            100,000 of them, putting the chips alone at 3 to 4 billion dollars before cooling, power,
+            and networking get added. One building, ground up, can run 10 to 25 billion dollars. Big
+            tech's capital spending is on pace to consume around 94 percent of operating cash flow over
+            the next two years, according to a PIMCO analysis, up from about 40 percent in 2023. Almost
+            everything these companies earn is going straight back into building more.
+          </p>
+
+          <p>
+            Set against that, JP Morgan reportedly modeled what return this spending would need to
+            generate to be justified, and landed on a simple bar. For a 10 percent return, the minimum
+            any serious investor expects, the industry would need to bring in around 650 billion dollars
+            a year. What it earns falls well short. OpenAI reportedly brings in around 25 billion dollars
+            a year while losing about 14 billion. Add Anthropic and Gemini's revenue and the major labs
+            combined land somewhere around 75 billion, against a 650 billion dollar bar and roughly 725
+            billion in spending. A 2025 MIT study analyzing over 300 real enterprise AI deployments
+            found that 95 percent failed to produce any measurable financial return. Only about 5 percent
+            showed real impact on the bottom line.
+          </p>
+
+          <figure class="article-figure">
+            <img
+              src="assets/ai-revenue-gap.png"
+              alt="Bar chart comparing projected infrastructure spending, revenue needed for a 10 percent return, and actual AI revenue."
+            >
+          </figure>
+
+          <h2>Money that never leaves the room</h2>
+
+          <p>
+            One piece of this story gets skipped past in most coverage, and it is the piece that
+            convinced me this is more than a spending question. A large share of the capital funding
+            this buildout never leaves a small circle of companies. It moves from one balance sheet to
+            another, and each stop along the way gets booked as revenue somewhere.
+          </p>
+
+          <p>
+            OpenAI announced in its own release that it had raised 122 billion dollars to fund the next
+            phase of its buildout, the largest private funding round in history, anchored by 50 billion
+            dollars from Amazon and 30 billion each from Nvidia and SoftBank. Nvidia is, at the same
+            time, OpenAI's largest chip supplier. Oracle has committed roughly 300 billion dollars in
+            compute capacity to OpenAI over five years, money it is raising in part through 45 to 50
+            billion dollars of new debt and equity financing this year alone, and Oracle then spends a
+            meaningful share of that capital buying the chips it needs from Nvidia to fulfill the
+            contract. Microsoft and Nvidia together put roughly 15 billion dollars into Anthropic, which
+            is expected to spend around 30 billion dollars back on Microsoft's cloud and Nvidia's chips.
+            The dollar does not really leave the room. It just gets counted again on its way past.
+          </p>
+
+          <p>
+            SoftBank's position shows what this looks like when it goes wrong for one company
+            specifically. To fund its first major stake in OpenAI, SoftBank sold off its entire holding
+            in Nvidia. To fund a follow-on 30 billion dollar investment this March, it took out a 40
+            billion dollar bridge loan, its largest dollar-denominated borrowing ever, and credit rating
+            agencies downgraded its outlook to negative shortly after. In April, it went looking for an
+            additional 10 billion dollar loan, this time using its own OpenAI shares as collateral. Then
+            in late June, reports that OpenAI might delay its IPO to 2027 wiped out roughly 38 billion
+            dollars of SoftBank's market value in a single trading session, since the entire structure
+            depends on that IPO eventually happening to give the debt somewhere to be repaid from. This
+            doesn't prove AI has no value, but it does mean a meaningful share of the boom's apparent
+            size is leverage stacked on leverage, arranged among a small number of counterparties who all
+            need each other's bet to keep paying off.
+          </p>
+
+          <h2>The number that puts this in real historical context</h2>
+
+          <p>
+            The most useful comparison I found is also more precise than "this feels like the dot-com
+            bubble." Current AI infrastructure spending sits at roughly 1 to 2 percent of US GDP,
+            depending on how you measure it. The railroad boom of the 1880s peaked at around 6 percent
+            of GDP. The telecom and fiber optic buildout of the dot-com era topped out around 1 to 1.2
+            percent. That means AI spending has already matched or slightly exceeded the entire scale of
+            the dot-com infrastructure boom, while still climbing, and it is roughly a third of the way
+            to railroad-scale mania if the current growth rate continues.
+          </p>
+
+          <figure class="article-figure">
+            <img
+              src="assets/ai-gdp-comparison.png"
+              alt="Horizontal bar chart comparing current AI infrastructure spending with dot-com telecom spending and the railroad boom as a share of US GDP."
+            >
+          </figure>
+
+          <p>
+            A historian who spent years researching the 1873 railroad crash for his own book published a
+            piece this year saying the AI buildout genuinely frightens him, for exactly this reason.
+            Scale like this can end badly without any fraud or stupidity involved, just revenue arriving
+            later than the spending did.
+          </p>
+
+          <h2>Skepticism used to come from outside the industry. It doesn't anymore.</h2>
+
+          <p>
+            For most of this boom, the loudest doubts came from short sellers with an obvious financial
+            incentive to talk the market down. Michael Burry, who became known for his bet against
+            housing in 2008, has disclosed put options against Nvidia and Palantir worth hundreds of
+            millions of dollars combined, and has since shorted several other chip names directly. That
+            is easy to dismiss as one contrarian doing what contrarians do.
+          </p>
+
+          <p>
+            By mid-2026 though, the skepticism started coming from inside the industry itself, which is
+            harder to wave off. Capital Economics analysts, not short sellers, said AI spending shows
+            many of the hallmarks of a bubble, while allowing that it could keep inflating for a while
+            yet. A fund manager quoted in Fortune declined to call it a bubble outright, saying only
+            three of the four conditions he uses to define one had been met, a more careful position than
+            either side usually offers. The Bank for International Settlements issued a formal warning
+            about how much of this capex is now debt financed. A draft US Treasury report reportedly
+            modeled what happens to the wider economy if AI spending mirrors the dot-com collapse. These
+            are the institutions that sit closest to the money, not outsiders betting against the
+            industry for profit, and their tone has shifted from curiosity to caution in the space of a
+            single year.
+          </p>
+
+          <h2>Why I am not calling this a repeat</h2>
+
+          <p>
+            It would be too easy to stop there and declare history simply repeating itself, so the real
+            differences deserve equal weight. The telecom companies of the 1990s were funded mostly by
+            debt while losing money every year. Nvidia posted over 100 billion dollars in net income last
+            year alone, and Microsoft, Google, and Amazon are among the most profitable companies that
+            have ever existed. Anyone claiming total certainty that this is definitely a bubble, or
+            definitely not one, is ignoring exactly the part that makes this genuinely hard to call.
+          </p>
+
+          <h2>Why I actually care about this</h2>
+
+          <p>
+            I teach Python to students here in Lahore, some of whom are building their first real
+            projects on top of a Gemini or Claude API key, the same way I do. None of us are paying
+            anything close to the real infrastructure cost of what we're using. This is not an abstract
+            concern for people in this part of the world either. Infosys, one of India's largest IT
+            employers, has estimated that generative AI could displace as many as 92 million roles like
+            front-end development and testing, while creating roughly 170 million new ones elsewhere in
+            the system. Whether that transition nets out well depends entirely on which side of it a
+            given person lands on, and for a lot of entry-level developers across South Asia right now,
+            it does not feel like a wash.
+          </p>
+
+          <p>
+            There is a second habit worth carrying out of all this, and it has nothing to do with money.
+            AI has made it far easier to produce something that looks finished long before it is one. I
+            built a small project earlier this year specifically to make that point, a dashboard designed
+            to look like a sophisticated AI system while doing nothing at all underneath it. It was a
+            joke, but a pointed one, aimed at how much of what circulates on LinkedIn and YouTube right
+            now is exactly that kind of surface without a system behind it.
+          </p>
+
+          <p>
+            The chess habit applies here too. You do not get credit for a position that looks strong if
+            it collapses two moves later. Whatever happens to this capital cycle, the only thing that
+            survives it is something that actually works when someone other than its creator tries to use
+            it.
+          </p>
+
+          <p>
+            AI is probably going to matter for a very long time. That has never been the same question
+            as whether every dollar riding on it right now, and every dollar riding on top of that
+            dollar, gets paid back on schedule. Right now, only one of those two questions has an answer.
+          </p>
+
+          <section class="source-section" aria-labelledby="source-title">
+            <h2 id="source-title">Sources & Further Reading</h2>
+            <ul>
+              <li><a href="https://www.cnn.com/2026/06/25/tech/apple-hikes-the-prices-of-macbooks-and-ipads-because-of-memory-chip-shortage" target="_blank" rel="noopener noreferrer">CNN Business, Apple hikes the prices of MacBooks and iPads because of memory chip shortage</a></li>
+              <li><a href="https://www.cnbc.com/2026/06/25/apple-macbook-ipad-price-hike-memory.html" target="_blank" rel="noopener noreferrer">CNBC, Apple posts worst day in over a year after MacBook and iPad price hikes</a></li>
+              <li><a href="https://fortune.com/2025/08/18/mit-report-95-percent-generative-ai-pilots-at-companies-failing-cfo/" target="_blank" rel="noopener noreferrer">Fortune, MIT report: 95% of generative AI pilots at companies are failing</a></li>
+              <li><a href="https://cryptobriefing.com/nvidia-falls-below-5t-market-cap/" target="_blank" rel="noopener noreferrer">CryptoBriefing, Nvidia falls below $5T market cap after single-day wipeout erases $320B</a></li>
+              <li><a href="https://openai.com/index/accelerating-the-next-phase-ai/" target="_blank" rel="noopener noreferrer">OpenAI, OpenAI raises $122 billion to accelerate the next phase of AI</a></li>
+              <li><a href="https://www.bloomberg.com/graphics/2026-ai-circular-deals/" target="_blank" rel="noopener noreferrer">Bloomberg, A Guide to the Circular Deals Underpinning the AI Boom</a></li>
+              <li><a href="https://www.bloomberg.com/news/articles/2026-03-27/softbank-secures-record-40-billion-bridge-loan-for-openai-stake" target="_blank" rel="noopener noreferrer">Bloomberg, SoftBank Secures Record $40 Billion Bridge Loan for OpenAI Stake</a></li>
+              <li><a href="https://fortune.com/2026/06/02/ai-bubble-history-railroad-crash-1873-pulitzer-liaquat-ahamed/" target="_blank" rel="noopener noreferrer">Fortune, I won a Pulitzer for explaining the Great Depression. The AI spending boom terrifies me</a></li>
+              <li><a href="https://www.youtube.com/watch?v=WcckBmkauBQ" target="_blank" rel="noopener noreferrer">Think School, The Dirty AI Lie: How the GREATEST Bet in Human History Started to Crack in June 2026?</a></li>
+            </ul>
+          </section>
+        </div>
+      </article>
+    </main>
+    <script src="main.js" defer></script>
+  </body>
+</html>

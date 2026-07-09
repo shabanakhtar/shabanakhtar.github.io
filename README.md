@@ -1,80 +1,31 @@
-# Hello, I'm Shaban Akhtar 
+# shabanakhtar.github.io
 
-I'm a FinTech student at FAST NUCES who likes building things at the intersection of finance, software, AI, and data.
+Personal portfolio site for Shaban Akhtar — projects, writing, and current work in development, AI, ML, and FinTech.
 
----
+Live at [shabanakhtar.github.io](https://shabanakhtar.github.io)
 
-## What I'm Working On
+## Changes (Portfolio Redesign)
 
-Right now, I'm focused on becoming better as a full-stack developer and building projects that are actually useful.
+This PR replaces the previous multi-page portfolio with a redesigned single-page site built from the `portfolio-design` private staging repo.
 
-I'm working on:
+**What changed:**
+- Complete visual redesign using the Amber Continuity dark palette (`#121212` background, `#D9A441` accent, `#F5D999` sparkle)
+- Single-page homepage with Hero, About, Projects, Writing, and Contact sections
+- Separate full article page for "AI Is Real. The Math Around It Might Not Be." with three embedded charts
+- Motion system: drifting stars, scroll-linked signal path, section reveals on scroll, cursor-following card tilt, page-load fade-in, reading progress bar on article page
+- Responsive layout for desktop and mobile
+- `prefers-reduced-motion` support and `no-js` fallback
+- Static HTML/CSS/JS — no build step, no framework
 
-* Full-stack applications
-* AI-powered tools
-* Finance and data-driven projects
-* Student-focused platforms
-* Machine learning fundamentals
-
-
----
-
-## Skills
-
-**Languages**
-
-* Python
-* SQL
-
-
-**Development**
-
-* FastAPI
-* REST APIs
-* React Native / Expo
-* Git & GitHub
-
-**Data & AI**
-
-* Data Analysis
-* Financial Analysis
-* Data Visualization
-* Machine Learning Fundamentals
-* AI API Integration
-
-**Other**
-
-* Problem Solving
-* Teaching
-* Product Thinking
-* Technical Communication
-
----
-
-## Featured Projects
-
-### FAST Fellows
-
-A student-led peer-to-peer learning platform built for FAST students.
-
-I worked on frontend and backend development, product design, user experience improvements, and early branding/marketing work.
-
-### AI Personal Finance Tracker
-
-A full-stack finance app built to help users track money, budgets, and spending habits more intelligently.
-
-It includes user accounts, transaction tracking, budget management, dashboard analytics, CSV import/export, receipt scanning, market checks, and AI-based finance insights.
-
-### GradeCalc
-
-An ML-based grade prediction tool trained on data from 300+ students.
-
-The goal is to help students better understand where they stand academically and what they need to aim for.
-
----
+**Files:**
+- `index.html` — homepage
+- `article-ai-bubble.html` — full article page
+- `styles.css` — all styles
+- `main.js` — scroll animations, IntersectionObserver, card tilt
+- `assets/` — article chart images
 
 ## Connect
 
-LinkedIn: [www.linkedin.com/in/shabanakhtar28A](http://www.linkedin.com/in/shabanakhtar28A)
-
-Always open to talking about software, AI, finance, student projects, startups, or anything worth learning.
+- [GitHub](https://github.com/shabanakhtar)
+- [LinkedIn](https://www.linkedin.com/in/shabanakhtar28a)
+- Email: shaban.akhtar2006@gmail.com
