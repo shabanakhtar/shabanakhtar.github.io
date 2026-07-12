@@ -21,6 +21,28 @@
     <meta name="twitter:description" content="FinTech student at FAST NUCES building and shipping projects across full-stack development, AI, and finance." />
     <meta name="twitter:image" content="https://shabanakhtar.github.io/og-home.png" />
     <title>Shaban Akhtar</title>
+    <!-- GoatCounter analytics. The site uses hash routing, so the path
+         callback folds the fragment into the counted path and the
+         hashchange listener records in-app navigations. -->
+    <script>
+      window.goatcounter = {
+        path: function () {
+          return location.pathname + location.search + location.hash
+        },
+      }
+      window.addEventListener('hashchange', function () {
+        if (window.goatcounter.count) {
+          window.goatcounter.count({
+            path: location.pathname + location.search + location.hash,
+          })
+        }
+      })
+    </script>
+    <script
+      data-goatcounter="https://shaboigun.goatcounter.com/count"
+      async
+      src="//gc.zgo.at/count.js"
+    ></script>
     <script type="module" crossorigin src="./assets/index-NZgveQu1.js"></script>
     <link rel="stylesheet" crossorigin href="./assets/index-BbHtYkNx.css">
   </head>
