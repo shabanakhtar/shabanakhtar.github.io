@@ -1,31 +1,19 @@
-# shabanakhtar.github.io
+# Shaban Akhtar
 
-Personal portfolio site for Shaban Akhtar — projects, writing, and current work in development, AI, ML, and FinTech.
+I build software around finance and AI, usually by shipping first and figuring out what broke second. I’m studying FinTech at FAST NUCES, co-founding FAST Fellows, and building projects across full-stack development, automation, and machine learning.
 
-Live at [shabanakhtar.github.io](https://shabanakhtar.github.io)
+My portfolio is live at [shabanakhtar.github.io](https://shabanakhtar.github.io/). It has the projects, the writing, and the slightly over-engineered space background.
 
-## Changes (Portfolio Redesign)
+## Current work
 
-This PR replaces the previous multi-page portfolio with a redesigned single-page site built from the `portfolio-design` private staging repo.
+- [Finance Tracker](https://github.com/shabanakhtar/finance-tracker), a full-stack personal finance app
+- [Visual Dashboard](https://github.com/shabanakhtar/visual-only-ai-dashboard), a polished AI dashboard with absolutely nothing behind it
+- [AI Is Real. The Math Around It Might Not Be.](https://shabanakhtar.github.io/#/writing/ai-bubble), a long read on AI infrastructure spending and circular financing
 
-**What changed:**
-- Complete visual redesign using the Amber Continuity dark palette (`#121212` background, `#D9A441` accent, `#F5D999` sparkle)
-- Single-page homepage with Hero, About, Projects, Writing, and Contact sections
-- Separate full article page for "AI Is Real. The Math Around It Might Not Be." with three embedded charts
-- Motion system: drifting stars, scroll-linked signal path, section reveals on scroll, cursor-following card tilt, page-load fade-in, reading progress bar on article page
-- Responsive layout for desktop and mobile
-- `prefers-reduced-motion` support and `no-js` fallback
-- Static HTML/CSS/JS — no build step, no framework
-
-**Files:**
-- `index.html` — homepage
-- `article-ai-bubble.html` — full article page
-- `styles.css` — all styles
-- `main.js` — scroll animations, IntersectionObserver, card tilt
-- `assets/` — article chart images
-
-## Connect
+## Find me
 
 - [GitHub](https://github.com/shabanakhtar)
 - [LinkedIn](https://www.linkedin.com/in/shabanakhtar28a)
-- Email: shaban.akhtar2006@gmail.com
+- [Email](mailto:shaban.akhtar2006@gmail.com)
+
+This repository contains the generated GitHub Pages build for the portfolio. The application source is maintained separately.
