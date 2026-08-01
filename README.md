@@ -1,6 +1,6 @@
-# Shaban Akhtar
+﻿# Shaban Akhtar
 
-I build software around finance and AI, usually by shipping first and figuring out what broke second. I’m studying FinTech at FAST NUCES, co-founding FAST Fellows, and building projects across full-stack development, automation, and machine learning.
+I build software around finance and AI, usually by shipping first and figuring out what broke second. Iâ€™m studying FinTech at FAST NUCES, co-founding FAST Fellows, and building projects across full-stack development, automation, and machine learning.
 
 My portfolio is live at [shabanakhtar.github.io](https://shabanakhtar.github.io/). It has the projects, the writing, and the slightly over-engineered space background.
 
